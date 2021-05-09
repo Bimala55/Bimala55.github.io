@@ -25,20 +25,10 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h3>About this project</h1>
-          <p>asdfasdfjkasdflasd fa sdfashfljashd flasd flasdh flasdhfsdklfh </p>
+        <p>In this project, we use plotly.js, a JavaScript data visualization library to build an interactive dashboard to explore the Belly Button Biodiversity dataset. A panel displays the sample's metadata, a bar chart of the top ten measurements is produced, a gauge chart shows the average belly button washes per week, and the entire dataset for this sample is at the bottom in a bubble chart.
+        </p>
       </div>
     </div>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#bar">Bar Graph</a></li>
-          <li><a href="#bubble">Bubble Chart</a></li>
-        </ul>
-      </div>
-    </nav>
 
     <div class="container-fluid">
       <div class="row">
@@ -59,12 +49,15 @@
         <div class="col-md-1 graph"></div>
         <div class="col-md-4 graph">
           <div id="bar"></div>
-          <p>This is a bar graph</p>
+          <p>This horizontal bar chart displays the top 10 bacterial species(OTUs). Here we can see that sample values as the values, the otu ids as the labels, and the otu labels as the hover text for the bars on the chart.
+          </p>
 
         </div>
         <div class="col-md-3 graph">
           <div id="gauge"></div>
-          <p>This is a gauge</p>
+          <p>The gauge chart displays the weekly washing frequency’s value and displays the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
+
+          </p>
 
         </div>
       </div>
@@ -74,7 +67,8 @@
       <div class="row">
         <div class="col-md-12 graph ">
           <div id="bubble"></div>
-          <p>This is a bubble chart</p>
+          <p>The bubble chart displays the entire dataset. Here otu id is in the x-axis values where we can see the market colors, sample values are in the y-axis values which is market size also and otu labels are in the hover-text values.
+          </p>
 
         </div>
       </div>
